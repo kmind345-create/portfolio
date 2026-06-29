@@ -3,7 +3,7 @@ import '../models/portfolio_models.dart';
 import '../theme/app_theme.dart';
 
 class PortfolioData {
-  static const String name = 'Alex Dev';
+  static const String name = 'Mohamed Sabry';
   static const String title = 'Flutter Developer';
   static const String tagline = 'Crafting beautiful cross-platform experiences with Flutter & Dart';
   static const String bio =
@@ -11,10 +11,10 @@ class PortfolioData {
       'I love pixel-perfect UIs, smooth animations, and clean architecture. '
       'From zero to app store — I ship products that users love.';
 
-  static const String email = 'alex@flutterdev.io';
-  static const String github = 'https://github.com/alexdev';
-  static const String linkedin = 'https://linkedin.com/in/alexdev';
-  static const String twitter = 'https://twitter.com/alexdev';
+  static const String email = 'mohamed@flutterdev.io';
+  static const String github = 'https://github.com/mohamedsabry';
+  static const String linkedin = 'https://linkedin.com/in/mohamedsabry';
+  static const String twitter = 'https://twitter.com/mohamedsabry';
 
   static const List<ProjectModel> projects = [
     ProjectModel(
@@ -25,7 +25,7 @@ class PortfolioData {
       tags: ['Flutter', 'BLoC', 'WebSocket', 'Crypto', 'Firebase'],
       accentColor: AppTheme.cyan,
       emoji: '💳',
-      githubUrl: 'https://github.com/alexdev/novapay',
+      githubUrl: 'https://github.com/mohamedsabry/novapay',
       liveUrl: 'https://novapay.app',
     ),
     ProjectModel(
@@ -36,7 +36,7 @@ class PortfolioData {
       tags: ['Flutter', 'Isar DB', 'Riverpod', 'Animations', 'iOS & Android'],
       accentColor: AppTheme.green,
       emoji: '🪐',
-      githubUrl: 'https://github.com/alexdev/orbit',
+      githubUrl: 'https://github.com/mohamedsabry/orbit',
       liveUrl: 'https://orbit-app.io',
     ),
     ProjectModel(
@@ -47,7 +47,7 @@ class PortfolioData {
       tags: ['Flutter Web', 'WebRTC', 'GetX', 'Canvas', 'Node.js'],
       accentColor: AppTheme.purple,
       emoji: '🎥',
-      githubUrl: 'https://github.com/alexdev/flowmeet',
+      githubUrl: 'https://github.com/mohamedsabry/flowmeet',
     ),
     ProjectModel(
       title: 'AgroSense — IoT Dashboard',
@@ -57,7 +57,7 @@ class PortfolioData {
       tags: ['Flutter', 'BLE', 'MQTT', 'fl_chart', 'Provider'],
       accentColor: AppTheme.amber,
       emoji: '🌱',
-      githubUrl: 'https://github.com/alexdev/agrosense',
+      githubUrl: 'https://github.com/mohamedsabry/agrosense',
     ),
   ];
 
