@@ -9939,8 +9939,8 @@ break
 case 5:s=l.a
 s===$&&A.a()
 s=A.b5(A.vs(s+240),40)
-r=A.b5(A.Tc(l,B.lC,B.Dx),24)
-q=A.b5(A.Tc(l,B.lC,B.Dy),32)
+r=A.b5(A.Tc(l,B.lB,B.Dx),24)
+q=A.b5(A.Tc(l,B.lB,B.Dy),32)
 p=A.b5(l.a+15,8)
 o=A.b5(l.a+15,12)
 l.d===$&&A.a()
@@ -10256,7 +10256,7 @@ ajf(a,b,c){if(b!=null&&!b.i(0,B.B))return A.arP(b.bL(A.asE(c)),a)
 return a},
 asE(a){var s,r,q,p,o,n
 if(a<0)return 0
-for(s=0;r=B.lB[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.lB[s-1]
+for(s=0;r=B.lA[s],q=r.a,a>=q;){if(a===q||s+1===6)return r.b;++s}p=B.lA[s-1]
 o=p.a
 n=p.b
 return n+(a-o)/(q-o)*(r.b-n)},
@@ -16411,7 +16411,7 @@ a7x:function a7x(a){this.a=a},
 S0(a){var s=0,r=A.S(t.H)
 var $async$S0=A.T(function(b,c){if(b===1)return A.P(c,r)
 for(;;)switch(s){case 0:s=2
-return A.N(B.bc.eo("Clipboard.setData",A.aJ(["text","alex@flutterdev.io"],t.N,t.z),t.H),$async$S0)
+return A.N(B.bc.eo("Clipboard.setData",A.aJ(["text","mohamed@flutterdev.io"],t.N,t.z),t.H),$async$S0)
 case 2:return A.Q(null,r)}})
 return A.R($async$S0,r)},
 RU:function RU(){},
@@ -32216,11 +32216,11 @@ gNG(){var s=this.a
 if(s instanceof A.dQ)return s
 return this.a=new A.dQ(s)},
 gaaD(){var s,r,q,p,o,n=this
-if(n.c===1)return B.lE
+if(n.c===1)return B.lD
 s=n.d
 r=J.bu(s)
 q=r.gE(s)-J.cs(n.e)-n.f
-if(q===0)return B.lE
+if(q===0)return B.lD
 p=[]
 for(o=0;o<q;++o)p.push(r.j(s,o))
 p.$flags=3
@@ -35545,7 +35545,7 @@ n=o.w=s.charCodeAt(0)==0?s:s}return n},
 guE(){var s,r,q=this,p=q.x
 if(p===$){s=q.e
 if(s.length!==0&&s.charCodeAt(0)===47)s=B.d.dk(s,1)
-r=s.length===0?B.lD:A.EG(new A.ab(A.c(s.split("/"),t.s),A.azH(),t.Gf),t.N)
+r=s.length===0?B.lC:A.EG(new A.ab(A.c(s.split("/"),t.s),A.azH(),t.Gf),t.N)
 q.x!==$&&A.aw()
 p=q.x=r}return p},
 gt(a){var s,r=this,q=r.y
@@ -35657,7 +35657,7 @@ gjJ(){var s=this.r,r=this.a
 return s<r.length?B.d.dk(r,s+1):""},
 guE(){var s,r,q=this.e,p=this.f,o=this.a
 if(B.d.d8(o,"/",q))++q
-if(q===p)return B.lD
+if(q===p)return B.lC
 s=A.c([],t.s)
 for(r=q;r<p;++r)if(o.charCodeAt(r)===47){s.push(B.d.ao(o,q,r))
 q=r+1}s.push(B.d.ao(o,q,p))
@@ -47003,8 +47003,8 @@ s=r.Y
 r.dA=s==null?null:s.gDn()
 a.a=!1},
 oQ(a,b,c){var s,r,q,p,o=this
-o.fP=A.akK(o.fP,B.lF)
-o.jG=A.akK(o.jG,B.lF)
+o.fP=A.akK(o.fP,B.lE)
+o.jG=A.akK(o.jG,B.lE)
 s=o.fP
 r=s!=null&&!s.gP(s)
 s=o.jG
@@ -67468,7 +67468,7 @@ j=A.fz(A.eY(A.cc("HI, I'M",j==null?m:j.zR(13,4),m),m),A.aY(2e5,0),A.aY(l,0))
 s=A.av(a).ok.a
 if(s==null)s=m
 else s=s.a5e(A.bq(a,m,t.w).w.a.a>900?72:48)
-s=A.ale(A.fz(A.eY(A.cc("Alex Dev",s,m),m),A.aY(3e5,0),A.aY(k,0)),-0.15,A.aY(3e5,0),A.aY(k,0),0)
+s=A.ale(A.fz(A.eY(A.cc("Mohamed Sabry",s,m),m),A.aY(3e5,0),A.aY(k,0)),-0.15,A.aY(3e5,0),A.aY(k,0),0)
 r=t.w
 q=A.a55("Flutter Developer",B.eI,A.dR(m,m,B.w,m,m,m,m,m,m,m,m,A.bq(a,m,r).w.a.a>900?28:20,m,m,B.ai,m,m,!0,m,m,m,m,m,m,m,m))
 p=A.a55("Dart Enthusiast",B.eI,A.dR(m,m,B.ab,m,m,m,m,m,m,m,m,A.bq(a,m,r).w.a.a>900?28:20,m,m,B.ai,m,m,!0,m,m,m,m,m,m,m,m))
@@ -67531,10 +67531,10 @@ J(a){return A.dc(A.c([A.cc(this.c,B.Nm,null),A.cc(this.d,B.fE,null)],t.p),B.a2,B
 A.Me.prototype={
 J(a){var s,r=null,q=A.bq(a,r,t.w).w.a.a>900,p=q?80:24,o=A.Gw(B.I4,"projects_header")
 if(q)s=new A.E8(B.yv,new A.a3t(new A.aar(),4,!0,!0,!0,r),r,B.aK,!1,r,r,B.FN,!0,r,r,4,B.aG,r,r,B.am,B.ao,r)
-else s=A.dc(new A.dM(B.lA,t.wa).gcV().cP(0,new A.aas(),t.iF).cf(0),B.S,B.C)
+else s=A.dc(new A.dM(B.lG,t.wa).gcV().cP(0,new A.aas(),t.iF).cf(0),B.S,B.C)
 return A.cH(r,A.dc(A.c([o,B.c9,s],t.p),B.a2,B.C),B.t,B.ky,r,r,r,r,r,new A.aN(p,80,p,80),r,r,r)}}
 A.aar.prototype={
-$2(a,b){return new A.kA(B.lA[b],b,null)},
+$2(a,b){return new A.kA(B.lG[b],b,null)},
 $S:437}
 A.aas.prototype={
 $1(a){return new A.bN(B.l7,new A.kA(a.b,a.a,null),null)},
@@ -67642,7 +67642,7 @@ this.bM()
 this.eG()}}
 A.CZ.prototype={
 J(a){var s=null,r=A.av(a).ok.as,q=t.p
-return A.fz(A.eY(A.cH(s,A.dc(A.c([A.cc("LET'S BUILD SOMETHING",r==null?s:r.zR(13,3),s),B.fA,A.cc("Get in Touch",A.av(a).ok.c,s),B.fA,B.Pc,B.c9,A.a5E(B.wT,A.c([new A.l4(B.Bi,"alex@flutterdev.io",B.w,new A.S6(a),s),new A.l4(B.ll,"GitHub",B.ab,new A.S7(),s),new A.l4(B.Bh,"LinkedIn",B.b6,new A.S8(),s),new A.l4(B.Bb,"Twitter / X",B.bC,new A.S9(),s)],q),16,16),B.JM,A.cH(s,s,B.t,s,s,new A.bL(s,s,s,s,s,new A.fF(B.ck,B.cX,B.b3,A.c([B.B,B.dh,B.B],t.W),s,s),B.Z),s,1,s,s,s,s,s),B.JJ,A.cc("\xa9 "+A.akz(new A.h_(Date.now(),0,!1))+" Alex Dev \xb7 Built with Flutter \ud83d\udc99",B.fE,s)],q),B.S,B.C),B.t,s,s,s,s,s,s,B.AH,s,s,s),s),s,A.aY(6e5,0))}}
+return A.fz(A.eY(A.cH(s,A.dc(A.c([A.cc("LET'S BUILD SOMETHING",r==null?s:r.zR(13,3),s),B.fA,A.cc("Get in Touch",A.av(a).ok.c,s),B.fA,B.Pc,B.c9,A.a5E(B.wT,A.c([new A.l4(B.Bi,"mohamed@flutterdev.io",B.w,new A.S6(a),s),new A.l4(B.ll,"GitHub",B.ab,new A.S7(),s),new A.l4(B.Bh,"LinkedIn",B.b6,new A.S8(),s),new A.l4(B.Bb,"Twitter / X",B.bC,new A.S9(),s)],q),16,16),B.JM,A.cH(s,s,B.t,s,s,new A.bL(s,s,s,s,s,new A.fF(B.ck,B.cX,B.b3,A.c([B.B,B.dh,B.B],t.W),s,s),B.Z),s,1,s,s,s,s,s),B.JJ,A.cc("\xa9 "+A.akz(new A.h_(Date.now(),0,!1))+" Mohamed Sabry \xb7 Built with Flutter \ud83d\udc99",B.fE,s)],q),B.S,B.C),B.t,s,s,s,s,s,s,B.AH,s,s,s),s),s,A.aY(6e5,0))}}
 A.S6.prototype={
 $0(){A.S0(B.xM)
 this.a.al(t.Pu).f.Qb(B.K3)},
@@ -67759,7 +67759,7 @@ J(a){var s,r=this,q=null,p=A.bq(a,q,t.w).w,o=r.e?A.ad(235,B.bB.q()>>>16&255,B.bB
 m=r.e?A.c([new A.cF(0,B.by,A.ad(B.c.an(76.5),B.l.q()>>>16&255,B.l.q()>>>8&255,B.l.q()&255),B.qQ,20)],m):A.c([],m)
 s=t.p
 s=A.c([A.eJ(A.c([A.cH(q,B.z_,B.t,q,q,new A.bL(q,q,q,A.e9(8),q,B.BI,B.Z),q,32,q,q,q,q,32),B.JA,A.cc("alex.dev",A.dR(q,q,B.an,q,q,q,q,q,q,q,q,16,q,q,B.aN,q,q,!0,q,-0.3,q,q,q,q,q,q),q)],s),B.S,B.a7,B.C),B.K6],s)
-if(p.a.a>900)s.push(A.eJ(new A.dM(B.lG,t.ly).gcV().cP(0,new A.aah(r),t.iF).cf(0),B.S,B.a7,B.C))
+if(p.a.a>900)s.push(A.eJ(new A.dM(B.lF,t.ly).gcV().cP(0,new A.aah(r),t.iF).cf(0),B.S,B.a7,B.C))
 else s.push(A.ati(q,q,B.Bm,q,q,new A.aai(r,a),q,q,q))
 return A.alf(A.fz(A.eY(A.aeD(A.a19(!0,new A.bN(B.l8,A.eJ(s,B.S,B.a7,B.C),q),B.aM,!0),new A.bL(o,q,n,q,m,q,B.Z),B.cs,q),q),q,A.aY(6e5,0)),-0.5,q,q,A.aY(5e5,0),0)},
 a29(a){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.vQ(a,!1)
@@ -67790,7 +67790,7 @@ A.aai.prototype={
 $0(){return this.a.a29(this.b)},
 $S:0}
 A.aaf.prototype={
-$1(a){return new A.bN(B.AD,A.dc(new A.dM(B.lG,t.ly).gcV().cP(0,new A.aae(this.a,a),t.hT).cf(0),B.S,B.iE),null)},
+$1(a){return new A.bN(B.AD,A.dc(new A.dM(B.lF,t.ly).gcV().cP(0,new A.aae(this.a,a),t.hT).cf(0),B.S,B.iE),null)},
 $S:446}
 A.aae.prototype={
 $1(a){return new A.mC(A.cc(a.b,B.Lw,null),new A.aad(this.a,this.b,a),null)},
@@ -72228,22 +72228,13 @@ B.CI=s(["VS Code","Android Studio","Xcode","Figma","Postman","GitHub Actions","F
 B.DI=new A.mE("en",null,"US")
 B.ly=s([B.DI],t.ss)
 B.lz=s([0,41,61,101,131,181,251,301,360],t.n)
-B.BU=s(["Flutter","BLoC","WebSocket","Crypto","Firebase"],t.s)
-B.Hx=new A.i6("NovaPay Wallet","A fintech super-app with real-time crypto & fiat wallet management. Built with BLoC architecture, WebSocket streams, and custom chart animations.",B.BU,B.w,"\ud83d\udcb3","https://github.com/alexdev/novapay","https://novapay.app")
-B.DD=s(["Flutter","Isar DB","Riverpod","Animations","iOS & Android"],t.s)
-B.Hy=new A.i6("Orbit \u2014 Habit Tracker","Minimalist habit tracker with gamified streaks, custom 2D planet animations, and offline-first architecture using Isar DB.",B.DD,B.ab,"\ud83e\ude90","https://github.com/alexdev/orbit","https://orbit-app.io")
-B.D_=s(["Flutter Web","WebRTC","GetX","Canvas","Node.js"],t.s)
-B.Hw=new A.i6("FlowMeet \u2014 Video Calls","WebRTC-powered video calling app with virtual backgrounds, screen sharing, and real-time whiteboard. 50k+ downloads on Play Store.",B.D_,B.b6,"\ud83c\udfa5","https://github.com/alexdev/flowmeet",null)
-B.Co=s(["Flutter","BLE","MQTT","fl_chart","Provider"],t.s)
-B.Hz=new A.i6("AgroSense \u2014 IoT Dashboard","Real-time IoT dashboard for smart farming. Animated data visualizations, sensor graphs, and BLE device management.",B.Co,B.bC,"\ud83c\udf31","https://github.com/alexdev/agrosense",null)
-B.lA=s([B.Hx,B.Hy,B.Hw,B.Hz],A.aa("w<i6>"))
 B.QJ=new A.ju(0,0)
 B.QO=new A.ju(1,0.05)
 B.QM=new A.ju(3,0.08)
 B.QN=new A.ju(6,0.11)
 B.QL=new A.ju(8,0.12)
 B.QK=new A.ju(12,0.14)
-B.lB=s([B.QJ,B.QO,B.QM,B.QN,B.QL,B.QK],A.aa("w<ju>"))
+B.lA=s([B.QJ,B.QO,B.QM,B.QN,B.QL,B.QK],A.aa("w<ju>"))
 B.G9=new A.k(0.5,0.08)
 B.BQ=s([1],t.t)
 B.Qj=new A.fO("MaterialApp",B.G9,B.w,B.BQ)
@@ -72270,7 +72261,7 @@ B.Qg=new A.fO("Image",B.Gk,B.bC,B.eU)
 B.G7=new A.k(0.88,0.72)
 B.Qo=new A.fO("Card",B.G7,B.w,B.eU)
 B.CK=s([B.Qj,B.Qn,B.Qk,B.Qm,B.Qi,B.Qh,B.Ql,B.Qg,B.Qo],A.aa("w<fO>"))
-B.lC=s([0,21,51,121,151,191,271,321,360],t.n)
+B.lB=s([0,21,51,121,151,191,271,321,360],t.n)
 B.AR=new A.k_("Senior Flutter Developer","NovaTech Labs","2022 \u2014 Present","Led Flutter development for a team of 6. Shipped 3 production apps with 200k+ combined downloads. Introduced BLoC architecture and reduced app crash rate by 78%.",B.w)
 B.AP=new A.k_("Flutter Developer","ByteWave Studio","2021 \u2014 2022","Built cross-platform apps for 12+ clients across fintech, healthcare, and e-commerce. Specialized in custom animations and performance optimization.",B.ab)
 B.AQ=new A.k_("Mobile Developer","Freelance","2020 \u2014 2021","Started Flutter journey. Delivered 8 apps independently \u2014 from design to deployment. Built strong foundations in Dart, state management, and UX.",B.b6)
@@ -72311,7 +72302,7 @@ B.iZ=new A.GW(1,"page")
 B.j_=new A.eK(B.aD,B.iZ)
 B.D9=s([B.xJ,B.j_],A.aa("w<aI>"))
 B.Dg=s([],t.QP)
-B.lF=s([],A.aa("w<aBe>"))
+B.lE=s([],A.aa("w<aBe>"))
 B.Dj=s([],t.D)
 B.Dl=s([],t.fJ)
 B.Dk=s([],t.ER)
@@ -72322,13 +72313,13 @@ B.Dc=s([],A.aa("w<akm<@>>"))
 B.io=s([],t.AO)
 B.Df=s([],t.D1)
 B.im=s([],t.g)
-B.lD=s([],t.s)
+B.lC=s([],t.s)
 B.ap=s([],t.oU)
 B.Di=s([],t.Lx)
 B.RP=s([],t.p)
-B.lE=s([],t.ee)
+B.lD=s([],t.ee)
 B.Dh=s([],t.XS)
-B.lG=s(["Home","Projects","Skills","Experience","Contact"],t.s)
+B.lF=s(["Home","Projects","Skills","Experience","Contact"],t.s)
 B.Bg=new A.dH(58531,"MaterialIcons",!1)
 B.JS=new A.eO("Flutter & Dart",0.95,B.w,B.Bg)
 B.B7=new A.dH(57412,"MaterialIcons",!1)
@@ -72347,6 +72338,15 @@ B.Ba=new A.dH(57488,"MaterialIcons",!1)
 B.JQ=new A.eO("Clean Architecture & TDD",0.85,B.bC,B.Ba)
 B.ip=s([B.JS,B.JR,B.JT,B.JP,B.JO,B.JU,B.JN,B.JQ],A.aa("w<eO>"))
 B.du=s([B.bO,B.bv,B.ec,B.ed,B.h5],t.QP)
+B.BU=s(["Flutter","BLoC","WebSocket","Crypto","Firebase"],t.s)
+B.Hw=new A.i6("NovaPay Wallet","A fintech super-app with real-time crypto & fiat wallet management. Built with BLoC architecture, WebSocket streams, and custom chart animations.",B.BU,B.w,"\ud83d\udcb3","https://github.com/mohamedsabry/novapay","https://novapay.app")
+B.DD=s(["Flutter","Isar DB","Riverpod","Animations","iOS & Android"],t.s)
+B.Hx=new A.i6("Orbit \u2014 Habit Tracker","Minimalist habit tracker with gamified streaks, custom 2D planet animations, and offline-first architecture using Isar DB.",B.DD,B.ab,"\ud83e\ude90","https://github.com/mohamedsabry/orbit","https://orbit-app.io")
+B.D_=s(["Flutter Web","WebRTC","GetX","Canvas","Node.js"],t.s)
+B.Hy=new A.i6("FlowMeet \u2014 Video Calls","WebRTC-powered video calling app with virtual backgrounds, screen sharing, and real-time whiteboard. 50k+ downloads on Play Store.",B.D_,B.b6,"\ud83c\udfa5","https://github.com/mohamedsabry/flowmeet",null)
+B.Co=s(["Flutter","BLE","MQTT","fl_chart","Provider"],t.s)
+B.Hz=new A.i6("AgroSense \u2014 IoT Dashboard","Real-time IoT dashboard for smart farming. Animated data visualizations, sensor graphs, and BLE device management.",B.Co,B.bC,"\ud83c\udf31","https://github.com/mohamedsabry/agrosense",null)
+B.lG=s([B.Hw,B.Hx,B.Hy,B.Hz],A.aa("w<i6>"))
 B.Cv=s([0.001200833568784504,0.002389694492170889,0.0002795742885861124],t.n)
 B.Da=s([0.0005891086651375999,0.0029785502573438758,0.0003270666104008398],t.n)
 B.CE=s([0.00010146692491640572,0.0005364214359186694,0.0032979401770712076],t.n)
